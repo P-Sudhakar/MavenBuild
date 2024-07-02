@@ -3,17 +3,17 @@ pipeline{
 	stages{
 		stage ('build'){
 			steps{
-				bat "build completed"
+				echo "build completed"
 			}
 	}
 		stage ('test'){
 			steps{
-				bat "test completed"
+				echo "test completed"
 			}
 	}
 		stage ('deploy'){
 			steps{
-				bat "deploy completed"
+				echo "deploy completed"
 			}
 	}
 }
